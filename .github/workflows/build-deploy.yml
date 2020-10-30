@@ -17,7 +17,7 @@ jobs:
 
       # Runs the Super-Linter action
       - name: Run Deploy-prod
-        uses: github/javaBin/java.no
+        uses: javaBin/java.no/github-action@v1
         env:
           DEFAULT_BRANCH: master
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

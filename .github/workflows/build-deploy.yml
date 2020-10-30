@@ -1,0 +1,23 @@
+name: Deploy Prod
+# Run this workflow every time a new commit pushed to your repository
+on: push
+
+jobs:
+
+  deploy-prod:
+
+    name: Lint code base
+
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checks out a copy of your repository on the ubuntu-latest machine
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Runs the Super-Linter action
+      - name: Run Deploy-prod
+        uses: github/java.no
+        env:
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

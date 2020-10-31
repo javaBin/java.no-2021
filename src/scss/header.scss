@@ -1,0 +1,44 @@
+.header {
+    background-color: #222222;
+    height: 5rem;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+
+    .header-logo {
+        background: none;
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        margin-left: 1rem;
+        font-size: 1.5rem;
+        color: #FED136;
+        font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, cursive;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.hamburger-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-links {
+    color: white;
+    margin: auto 2rem;
+    text-decoration: none;
+    display: flex;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.chevron {
+    height: 20px;
+    width: 20px;
+    margin: 0 .5rem;
+}

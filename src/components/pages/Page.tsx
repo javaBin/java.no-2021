@@ -8,10 +8,6 @@ class Page extends React.Component {
     componentDidMount() {
         document.title = 'Home Page';
     }
-
-    render() {
-        return <div>aaa</div>;
-    }
 }
 
 export default Page;

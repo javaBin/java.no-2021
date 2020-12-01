@@ -1,6 +1,6 @@
 import './App.css';
 import React from 'react';
-import Header from './components/header';
+import "bootstrap/dist/css/bootstrap.min.css"
 import './i18n';
 import Home from './pages/Home';
 

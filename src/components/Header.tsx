@@ -1,37 +1,33 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../scss/header.scss';
-import {ReactComponent as ChevronDown} from '../icons/down-chevron.svg';
-import {ReactComponent as ChevronUp} from '../icons/up-chevron.svg';
-import classNames from 'classnames';
+import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 export function Header() {
-    const [chevronUp, setChevronUp] = useState(false);
-
-    const changeChevron = () => {
-        return chevronUp ? <ChevronUp className="chevron" /> : <ChevronDown className="chevron" />;
-    };
-
     const javaBinName = '< javaBin />';
-
     return (
-        <div className="header">
-            <button className="header-logo">{javaBinName}</button>
-            <div className="hamburger-menu">
-                <a href="/" className="navbar-links">
-                    Om oss
-                </a>
-                <a href="/" className="navbar-links" onClick={() => setChevronUp(!chevronUp)}>
-                    Regioner
-                    {changeChevron()}
-                </a>
-                <a href="/" className="navbar-links">
-                    Styret
-                </a>
-                <a href="/" className="navbar-links">
-                    Kontakt oss
-                </a>
-            </div>
-        </div>
+        <Navbar collapseOnSelect className="header" expand="lg" variant="dark">
+            <Navbar.Brand className="header-logo" href="/">
+                {javaBinName}
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav>
+                    <Nav.Link href="#features">Om javaBin</Nav.Link>
+                    <NavDropdown title="Regioner" id="collasible-nav-dropdown">
+                        <NavDropdown.Item href="#regioner/oslo">Oslo</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/trondheim">Trondheim</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/bergen">Bergen</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/sorlandet">Sørlandet</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/tromso">Tromsø</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/stavanger">Stavanger</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/sogn">Sogn</NavDropdown.Item>
+                        <NavDropdown.Item href="#regioner/vestfold">Vestfold</NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link href="#styret">Styret</Nav.Link>
+                    <Nav.Link href="#kontakt-oss"> Kontakt oss</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
 export default Header;

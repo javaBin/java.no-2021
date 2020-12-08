@@ -1,13 +1,13 @@
 import React from 'react';
-import Tabbar from './Tabbar';
+import TabBar from './TabBar';
 
-const EventTabbar = () => {
+const EventTabBar = () => {
     return (
         <div>
             <h3>Upcoming events</h3>
-            <Tabbar />
+            <TabBar />
         </div>
     );
 }
 
-export default EventTabbar;
+export default EventTabBar;

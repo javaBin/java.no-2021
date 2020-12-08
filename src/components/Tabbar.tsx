@@ -1,7 +1,7 @@
 import React from 'react';
 import { Card, Col, Row, Tab, Tabs } from 'react-bootstrap';
 
-const Tabbar = () => {
+const TabBar = () => {
     const regions = ["Oslo", "Bergen", "Trondheim", "Vestfold", "Sogn", "Tromsø", "Sørlandet", "Stavanger"];
 
     return (
@@ -40,4 +40,4 @@ const Tabbar = () => {
     );
 }
 
-export default Tabbar;
+export default TabBar;

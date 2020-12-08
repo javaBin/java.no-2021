@@ -1,6 +1,6 @@
 import React from 'react';
 import {useTranslation} from 'react-i18next';
-import EventTabbar from "../components/EventTabbar"
+import EventTabBar from "../components/EventTabBar";
 
 const Home = () => {
     const {t, i18n} = useTranslation();
@@ -10,7 +10,7 @@ const Home = () => {
             <h1>{t('title')}</h1>
             <div>Hello</div>
             <div>
-                <EventTabbar />
+                <EventTabBar />
             </div>
         </div>
     );

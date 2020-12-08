@@ -1,0 +1,43 @@
+.navbar {
+    background-color: #222222;
+    height: 5rem;
+    padding: 1.25rem 1rem !important;
+}
+.header-logo {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #fed136;
+    font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, cursive;
+    text-decoration: none;
+}
+
+.nav-link {
+    margin: 0 1rem;
+}
+
+.navbar-nav {
+    border: none;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar-nav {
+        background-color: #222222;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 0.25rem;
+        width: 8rem;
+    }
+    .dropdown-menu {
+        min-width: 7rem !important;
+        .dropdown-item {
+            padding: 0.25rem 0.5rem;
+        }
+    }
+}

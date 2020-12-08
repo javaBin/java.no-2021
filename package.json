@@ -14,6 +14,7 @@
         "bootstrap": "^4.5.3",
         "i18next": "^19.8.3",
         "next-i18next": "^7.0.1",
+        "classnames": "^2.2.6",
         "prettier": "^2.1.2",
         "react": "^17.0.1",
         "react-bootstrap": "^1.4.0",
@@ -47,5 +48,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "@types/classnames": "^2.2.11"
     }
 }

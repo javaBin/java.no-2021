@@ -1,13 +1,12 @@
-import './App.css';
 import React from 'react';
-import "bootstrap/dist/css/bootstrap.min.css"
-import './i18n';
-import Home from './pages/Home';
+import Header from './components/Header';
+import './i18n'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
     return (
-        <div className="App">
-            <Home />
+        <div className="app">
+            <Header />
         </div>
     );
 }

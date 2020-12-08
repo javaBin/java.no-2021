@@ -1,5 +1,6 @@
 .app {
     text-align: center;
     display: flex;
-
+    flex-direction: row;
+    grid-template-rows: auto 1fr auto;
 }

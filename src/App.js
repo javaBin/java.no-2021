@@ -1,11 +1,24 @@
 import React from 'react';
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './pages/Contact';
+import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App() {
     return (
         <div className="app">
             <Header />
+
+            <BrowserRouter>
+                <Switch>
+                    <Route path="/javabin" />
+                    <Route path="/regioner" />
+                    <Route path="/styret" />
+                    <Route path="/kontakt">
+                        <Contact />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
         </div>
     );
 }

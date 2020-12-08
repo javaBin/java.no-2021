@@ -1,6 +1,6 @@
 .contact-container {
-    margin: 1rem auto;
-    width: 40rem;
+    margin: 1rem 30vw;
+
     .contact-form {
         display: flex;
         flex-direction: column;
@@ -22,9 +22,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin: 1rem auto;
+        margin: 1rem 0;
 
         .social-media-icon_wrapper {
+            width: fit-content;
             :hover {
                 fill: red;
             }
@@ -36,10 +37,20 @@
             margin: 0 0.5rem;
         }
     }
-
-    @media screen and (max-width: 991px) {
+}
+@media screen and (max-width: 991px) {
+    .contact-container {
+        margin: 1rem 10vw;
         .contact-form {
-            width: 70vw;
+            width: 100%;
+        }
+
+        .social-media_container {
+            .social-media-icon {
+                height: 40px;
+                width: 40px;
+                margin: 0 0.1rem;
+            }
         }
     }
 }

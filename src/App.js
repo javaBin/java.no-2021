@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
+import './i18n'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './pages/Contact';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';

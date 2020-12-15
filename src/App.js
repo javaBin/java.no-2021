@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
-import './i18n';
+import Footer from "./components/Footer"
+import './i18n'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './pages/Contact';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -9,7 +10,6 @@ function App() {
     return (
         <div className="app">
             <Header />
-
             <BrowserRouter>
                 <Switch>
                     <Route path="/javabin" />
@@ -20,6 +20,7 @@ function App() {
                     </Route>
                 </Switch>
             </BrowserRouter>
+            <Footer/>
         </div>
     );
 }

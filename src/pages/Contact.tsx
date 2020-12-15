@@ -1,7 +1,7 @@
 import React from 'react';
 import '../scss/contact.scss';
-import ContactForm from '../components/contact-form';
-import SocialMedia from '../components/social-media';
+import ContactForm from '../components/ContactForm';
+import SocialMedia from '../components/SocialMedia';
 
 export function Contact() {
     return (

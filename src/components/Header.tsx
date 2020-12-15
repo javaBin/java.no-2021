@@ -12,19 +12,19 @@ export function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                    <Nav.Link href="#features">Om javaBin</Nav.Link>
+                    <Nav.Link href="/om-javabin">Om javaBin</Nav.Link>
                     <NavDropdown title="Regioner" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#regioner/oslo">Oslo</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/trondheim">Trondheim</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/bergen">Bergen</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/sorlandet">Sørlandet</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/tromso">Tromsø</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/stavanger">Stavanger</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/sogn">Sogn</NavDropdown.Item>
-                        <NavDropdown.Item href="#regioner/vestfold">Vestfold</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/oslo">Oslo</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/trondheim">Trondheim</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/bergen">Bergen</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/sorlandet">Sørlandet</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/tromso">Tromsø</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/stavanger">Stavanger</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/sogn">Sogn</NavDropdown.Item>
+                        <NavDropdown.Item href="/regioner/vestfold">Vestfold</NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link href="#styret">Styret</Nav.Link>
-                    <Nav.Link href="#kontakt-oss"> Kontakt oss</Nav.Link>
+                    <Nav.Link href="/styret">Styret</Nav.Link>
+                    <Nav.Link href="/kontakt-oss"> Kontakt oss</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

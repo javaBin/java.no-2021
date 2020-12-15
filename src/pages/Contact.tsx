@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/contact.scss';
+import '../scss/Contact.scss';
 import ContactForm from '../components/ContactForm';
 import SocialMedia from '../components/SocialMedia';
 

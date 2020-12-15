@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import './i18n'
+import './i18n';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './pages/Contact';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
@@ -15,7 +15,7 @@ function App() {
                     <Route path="/javabin" />
                     <Route path="/regioner" />
                     <Route path="/styret" />
-                    <Route path="/kontakt">
+                    <Route path="/kontakt-oss">
                         <Contact />
                     </Route>
                 </Switch>

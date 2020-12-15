@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/header.scss';
+import '../scss/Header.scss';
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 export function Header() {
@@ -12,7 +12,7 @@ export function Header() {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                    <Nav.Link href="/javabin">Om javaBin</Nav.Link>
+                    <Nav.Link href="/om-javabin">Om javaBin</Nav.Link>
                     <NavDropdown title="Regioner" id="collasible-nav-dropdown">
                         <NavDropdown.Item href="/regioner/oslo">Oslo</NavDropdown.Item>
                         <NavDropdown.Item href="/regioner/trondheim">Trondheim</NavDropdown.Item>
@@ -24,11 +24,10 @@ export function Header() {
                         <NavDropdown.Item href="/regioner/vestfold">Vestfold</NavDropdown.Item>
                     </NavDropdown>
                     <Nav.Link href="/styret">Styret</Nav.Link>
-                    <Nav.Link href="/kontakt"> Kontakt</Nav.Link>
+                    <Nav.Link href="/kontakt-oss"> Kontakt oss</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
     );
 }
-
 export default Header;

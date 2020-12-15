@@ -1,5 +1,5 @@
 .contact-container {
-    margin: 1rem 30vw;
+    margin: 1rem 30%;
 
     .contact-form {
         display: flex;
@@ -38,13 +38,29 @@
         }
     }
 }
-@media screen and (max-width: 991px) {
+
+@media screen and (max-width: 1200px) {
     .contact-container {
-        margin: 1rem 10vw;
+        margin: 1rem 20%;
         .contact-form {
             width: 100%;
         }
+        .social-media_container {
+            .social-media-icon {
+                height: 40px;
+                width: 40px;
+                margin: 0 0.1rem;
+            }
+        }
+    }
+}
 
+@media screen and (max-width: 991px) {
+    .contact-container {
+        margin: 1rem 10%;
+        .contact-form {
+            width: 100%;
+        }
         .social-media_container {
             .social-media-icon {
                 height: 40px;

@@ -6,14 +6,14 @@
     "runtime-main.js": "/static/js/runtime-main.5245ed2a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5245ed2a.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.e6d495ca.chunk.js": "/static/js/2.e6d495ca.chunk.js",
-    "static/js/2.e6d495ca.chunk.js.map": "/static/js/2.e6d495ca.chunk.js.map",
+    "static/js/2.4b868321.chunk.js": "/static/js/2.4b868321.chunk.js",
+    "static/js/2.4b868321.chunk.js.map": "/static/js/2.4b868321.chunk.js.map",
     "static/js/3.7b17db7c.chunk.js": "/static/js/3.7b17db7c.chunk.js",
     "static/js/3.7b17db7c.chunk.js.map": "/static/js/3.7b17db7c.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.712352ff.chunk.css.map": "/static/css/main.712352ff.chunk.css.map",
-    "static/js/2.e6d495ca.chunk.js.LICENSE.txt": "/static/js/2.e6d495ca.chunk.js.LICENSE.txt",
+    "static/js/2.4b868321.chunk.js.LICENSE.txt": "/static/js/2.4b868321.chunk.js.LICENSE.txt",
     "static/media/email.30bdb735.svg": "/static/media/email.30bdb735.svg",
     "static/media/facebook.f84d4939.svg": "/static/media/facebook.f84d4939.svg",
     "static/media/github.e0df113a.svg": "/static/media/github.e0df113a.svg",
@@ -25,7 +25,7 @@
   "entrypoints": [
     "static/js/runtime-main.5245ed2a.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.e6d495ca.chunk.js",
+    "static/js/2.4b868321.chunk.js",
     "static/css/main.712352ff.chunk.css",
     "static/js/main.51739dc0.chunk.js"
   ]

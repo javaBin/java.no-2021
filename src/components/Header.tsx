@@ -1,5 +1,5 @@
 import React from 'react';
-import '../scss/header.scss';
+import '../scss/Header.scss';
 import {Nav, Navbar, NavDropdown} from 'react-bootstrap';
 
 export function Header() {

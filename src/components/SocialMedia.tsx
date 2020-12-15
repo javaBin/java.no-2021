@@ -6,7 +6,7 @@ import {ReactComponent as Twitter} from './icons/social-media/twitter.svg';
 import {ReactComponent as Vimeo} from './icons/social-media/vimeo.svg';
 import {ReactComponent as LinkedIn} from './icons/social-media/linkedin.svg';
 import {ReactComponent as Mail} from './icons/social-media/email.svg';
-import '../scss/contact.scss';
+import '../scss/Contact.scss';
 
 export function SocialMedia() {
     return (

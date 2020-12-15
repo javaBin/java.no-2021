@@ -23,12 +23,8 @@
         "react-i18next": "^11.7.3",
         "react-router": "^5.2.0",
         "react-router-dom": "^5.2.0",
-<<<<<<< HEAD
         "react-i18next": "^11.7.3",
         "react-scripts": "^4.0.0",
-=======
-        "react-scripts": "4.0.0",
->>>>>>> 21a44cf695954a5e154d16fd31eb33e2863a45cc
         "sass": "^1.28.0",
         "typescript": "^4.0.5",
         "web-vitals": "^0.2.4"

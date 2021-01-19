@@ -11,7 +11,7 @@ export function ContactForm() {
             }}
         >
             {props => {
-                const {values, touched, errors, dirty, isSubmitting, handleChange, handleBlur, handleSubmit} = props;
+                const {values, touched, errors, handleChange, handleBlur, handleSubmit} = props;
                 return (
                     <form className="contact-form" onSubmit={handleSubmit}>
                         <h1 className="contact-form_header">Kontakt</h1>

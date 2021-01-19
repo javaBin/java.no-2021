@@ -17,10 +17,10 @@ export function SocialMedia() {
                 target="_blank"
                 rel="noreferrer"
             >
-                <Facebook className="social-media-icon" />
+                <Facebook className="social-media-icon" aria-label="Link to our Facebook account" />
             </a>
             <a className="social-media-icon_wrapper" href="https://github.com/javaBin" target="_blank" rel="noreferrer">
-                <GitHub className="social-media-icon" />
+                <GitHub className="social-media-icon" aria-label="Link to our GitHub account" />
             </a>
             <a
                 className="social-media-icon_wrapper"
@@ -28,7 +28,7 @@ export function SocialMedia() {
                 target="_blank"
                 rel="noreferrer"
             >
-                <Instagram className="social-media-icon" />
+                <Instagram className="social-media-icon" aria-label="Link to our Instagram account" />
             </a>
             <a
                 className="social-media-icon_wrapper"
@@ -36,10 +36,10 @@ export function SocialMedia() {
                 target="_blank"
                 rel="noreferrer"
             >
-                <Twitter className="social-media-icon" />
+                <Twitter className="social-media-icon" aria-label="Link to our Twitter account" />
             </a>
             <a className="social-media-icon_wrapper" href="https://vimeo.com/javabin" target="_blank" rel="noreferrer">
-                <Vimeo className="social-media-icon" />
+                <Vimeo className="social-media-icon" aria-label="Link to our Vimeo account" />
             </a>
             <a
                 className="social-media-icon_wrapper"
@@ -47,10 +47,10 @@ export function SocialMedia() {
                 target="_blank"
                 rel="noreferrer"
             >
-                <LinkedIn className="social-media-icon" />
+                <LinkedIn className="social-media-icon" aria-label="Link to our Linkedin account" />
             </a>
             <a className="social-media-icon_wrapper" href="mailto:styret@java.no">
-                <Mail className="social-media-icon" />
+                <Mail className="social-media-icon" aria-label="Link to our email" />
             </a>
         </div>
     );
